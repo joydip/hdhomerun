@@ -11,7 +11,7 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/mdlayher/hdhomerun/internal/libhdhomerun"
+	"github.com/joydip/hdhomerun/internal/libhdhomerun"
 )
 
 // A DeviceType is a constant indicating the type of an HDHomeRun device,

@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/mdlayher/hdhomerun"
+	"github.com/joydip/hdhomerun"
 )
 
 // This example demonstrates the use of a Discoverer to discover devices until

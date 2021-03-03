@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mdlayher/hdhomerun/internal/libhdhomerun"
+	"github.com/joydip/hdhomerun/internal/libhdhomerun"
 )
 
 // A Client is an HDHomeRun client. It can be used to perform various operations

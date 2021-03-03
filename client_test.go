@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/mdlayher/hdhomerun/internal/libhdhomerun"
+	"github.com/joydip/hdhomerun/internal/libhdhomerun"
 )
 
 func TestClientQuery(t *testing.T) {

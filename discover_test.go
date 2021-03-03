@@ -14,7 +14,7 @@ import (
 
 	"github.com/fortytw2/leaktest"
 	"github.com/google/go-cmp/cmp"
-	"github.com/mdlayher/hdhomerun/internal/libhdhomerun"
+	"github.com/joydip/hdhomerun/internal/libhdhomerun"
 )
 
 var (

@@ -49,6 +49,16 @@ func (t *Tuner) Debug() (*TunerDebug, error) {
 	return debug, s.Err()
 }
 
+// VChannel retrieves the virtual channel the Tuner is tuned to.
+func (t *Tuner) VChannel() (string, error) {
+	b, err := t.query("vchannel")
+	if err != nil {
+		return "", err
+	}
+
+	return string(b), nil
+}
+
 // query performs a Client query prefixed with this Tuner's base path.
 func (t *Tuner) query(query string) ([]byte, error) {
 	base := fmt.Sprintf("/tuner%d/", t.Index)

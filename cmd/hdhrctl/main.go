@@ -9,7 +9,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/mdlayher/hdhomerun"
+	"github.com/joydip/hdhomerun"
 )
 
 func main() {

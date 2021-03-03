@@ -1,4 +1,4 @@
-module github.com/mdlayher/hdhomerun
+module github.com/joydip/hdhomerun
 
 go 1.12
 

@@ -16,7 +16,7 @@ import (
 
 // A DeviceType is a constant indicating the type of an HDHomeRun device,
 // such as a tuner or storage unit.
-type DeviceType int
+type DeviceType uint32
 
 // Possible DeviceType values.
 const (

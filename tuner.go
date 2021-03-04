@@ -52,11 +52,11 @@ func (t *Tuner) Debug() (*TunerDebug, error) {
 // VChannel retrieves the virtual channel the Tuner is tuned to.
 func (t *Tuner) VChannel() (string, error) {
 	b, err := t.query("vchannel")
-	if err != nil {
+	if err != nil || len(b) == 0 {
 		return "", err
 	}
 
-	return string(b), nil
+	return string(b[:len(b)-1]), nil
 }
 
 // query performs a Client query prefixed with this Tuner's base path.
